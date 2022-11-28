@@ -9,7 +9,8 @@ if(NODE_ENV === 'development') {
     // BASE_URL = 'http://localhost:3000'
     BASE_URL = '/api'
 }else if(NODE_ENV === 'production') {//生产环境
-    BASE_URL = '/api'
+    BASE_URL = 'http://110.40.240.8:9999'
+    // BASE_URL = '/api'
 }
 
 export { BASE_URL,TIME_OUT }
