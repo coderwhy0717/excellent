@@ -4,7 +4,7 @@
       <van-icon name="arrow-left" />
       <span>返回</span>
     </div>
-    <div class="heder">{{ detailData.title }}阿萨法</div>
+    <div class="heder">{{ detailData.title }}</div>
     <div>
       <template v-for="(item, index) in text" :key="index">
         <div class="text">
@@ -52,16 +52,17 @@ const changeclick = () => {
 .detail {
   padding: 10px 5px;
   .out {
+    cursor: pointer;
     font-size: 16px;
     margin-left: 5px;
   }
   .heder {
-    text-indent: 1em;
     text-align: center;
     font-size: 20px;
     font-weight: 600;
     text-align: justify;
     padding: 20px 20px;
+    margin-bottom: 20px;
   }
   .text {
     // 文本内容开始空两个空格

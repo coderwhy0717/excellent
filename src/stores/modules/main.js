@@ -2,7 +2,8 @@ import { defineStore } from "pinia";
 
 const useMainStore = defineStore('main',{
   state:() => ({
-    isloadingShow: false
+    isloadingShow: false,
+    backTop: false
   })
 })
 
